@@ -30,7 +30,7 @@ To design these tests I went through the following steps
 
 
 ## UI automation design pattern
-Different parts functionality is divided into different methods which makes the tests easy to understand. 
+Different parts of functionality is divided into different methods which makes the tests easy to understand. Also it makes it possible to call a method multiple times without repeating code. For example in `PlaylistSearchTest` test the `CheckItemExistsInPlaylist` method is called multiple times. 
 
 Next step from this approach will be the `Page Object Model` design pattern. In that approach we will have a different class to handle functionality of each page in the application. 
 
