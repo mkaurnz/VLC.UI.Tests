@@ -22,5 +22,18 @@ To design these tests I went through the following steps
 
 5. Then I created a new .Net core unit test project using NUnit and started implementing the above test plan.
 
+## How to run tests
+1. Run WinAppDriver by running `C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe`
+2. Add a media file called `test.mp4` in `C:\temp` location.
+3. Open the solution in Visual studio.
+4. Open `VLCTests.cs` file and right click on `PlaylistSearchTest` method and select `Run Tests`.
+
+
+## UI automation design pattern
+Different parts functionality is divided into different methods which makes the tests easy to understand. 
+
+Next step from this approach will be the `Page Object Model` design pattern. In that approach we will have a different class to handle functionality of each page in the application. 
+
+
 
 
