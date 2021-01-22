@@ -5,11 +5,11 @@ using System.Text;
 
 namespace VLCTest2.PageObjects
 {
-    class MainMenuPageObject
+    class MainWindowPageObject
     {
         WindowsDriver<WindowsElement> _driver;
 
-        public MainMenuPageObject(WindowsDriver<WindowsElement> driver)
+        public MainWindowPageObject(WindowsDriver<WindowsElement> driver)
         {
             _driver = driver;
         }

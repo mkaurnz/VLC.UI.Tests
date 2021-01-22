@@ -10,19 +10,19 @@ namespace VLCTest2.Tests
     [TestFixture]
     public class Tests1 : BaseClass
     {
-        private MainMenuPageObject mainMenuPageObject;
+        private MainWindowPageObject _mainWindowPageObject;
 
         [SetUp]
         public void SetUp()
         {
-            mainMenuPageObject = new MainMenuPageObject(_driver);
+            _mainWindowPageObject = new MainWindowPageObject(_driver);
         }
 
         [Test]
         public void Test()
         {
             _driver.Manage().Window.Maximize();
-            mainMenuPageObject.i_Menu_View.Click();
+            _mainWindowPageObject.i_Menu_View.Click();
         }
 
 
