@@ -19,6 +19,8 @@ namespace VLCTest2.PageObjects
         public WindowsElement i_Menu_View => _driver.FindElementByName("View Alt+i");
 
         public WindowsElement i_Menu_Audio => _driver.FindElementByName("Audio Alt+A");
+
+        public WindowsElement i_Search_Bar => _driver.FindElementByTagName("Edit");
     }
 }
 
