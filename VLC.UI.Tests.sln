@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLC.UI.Tests", "VLC.UI.Tests\VLC.UI.Tests.csproj", "{9A738C58-99F4-4D40-B3C8-51D9F11898B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VLC.UI.Tests", "VLC.UI.Tests\VLC.UI.Tests.csproj", "{9A738C58-99F4-4D40-B3C8-51D9F11898B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLCTest2", "VLCTest2\VLCTest2.csproj", "{D02677F3-9D6A-4310-8FFB-B8ED29F5D5CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9A738C58-99F4-4D40-B3C8-51D9F11898B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A738C58-99F4-4D40-B3C8-51D9F11898B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A738C58-99F4-4D40-B3C8-51D9F11898B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02677F3-9D6A-4310-8FFB-B8ED29F5D5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02677F3-9D6A-4310-8FFB-B8ED29F5D5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02677F3-9D6A-4310-8FFB-B8ED29F5D5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02677F3-9D6A-4310-8FFB-B8ED29F5D5CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
